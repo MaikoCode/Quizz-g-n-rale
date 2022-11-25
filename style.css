@@ -13,7 +13,6 @@ body {
   padding: clamp(20px, 5vw, 50px) 20px 10px;
 }
 
-
 h1 {
   font-family: Roboto, sans-serif;
   font-size: 40px;
@@ -23,16 +22,13 @@ h1 {
   text-align: center;
   color: #0e0e0e;
 }
-
 h1 span {
   font-weight: 800;
 }
-
 .global-container {
   max-width: 800px;
   margin: 0 auto;
 }
-
 .question-block {
   padding: 25px;
   margin: 20px 0;
@@ -40,13 +36,11 @@ h1 span {
   background: #f1f1f1;
   box-shadow: 0 5px 10px rgba(104,104,104,0.5);
 }
-
 .question-block h4 {
   font-size: 24px;
   font-weight: 500;
   margin-bottom: 20px;
 }
-
 .question-block > div {
   margin: 10px 0;
   display: flex;
@@ -79,7 +73,6 @@ form button {
   border: none;
   box-shadow: 0 3px 5px rgba(0,0,0,0.2);
 }
-
 form button:hover {
   background: #fafafa;
 }
@@ -91,35 +84,30 @@ form button:hover {
   box-shadow: 0 5px 7px rgba(0,0,0,0.2);
   background: #fff;
 }
-
 .results h2 {
   font-size: 22px;
   font-family: Roboto, sans-serif;
   font-weight: 400;
 }
-
 .results h2 span {
   font-weight: 700;
 }
-
 .results h2, .help {
   text-align: center;
 }
-
 .help, .mark {
   display: none;
   margin-top: 20px;
 }
-
 .help {
   font-size: 20px;
 }
-
 .mark {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 25px;
   text-align: center;
 }
-
-
+.mark span {
+  font-weight: 700;
+}
